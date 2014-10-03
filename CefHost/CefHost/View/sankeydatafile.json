@@ -1,0 +1,25 @@
+{
+
+"links": [
+{"source":"Machine001","target":"Machine002","value":"413"},
+{"source":"Machine001","target":"Machine005","value":"371"},
+{"source":"Machine002","target":"Machine003","value":"326"},
+{"source":"Machine005","target":"Machine004","value":"329"},
+{"source":"Machine005","target":"Ship","value":"42"},
+{"source":"Machine003","target":"Ship","value":"326"},
+{"source":"Machine004","target":"Ship","value":"328"},
+{"source":"Machine001","target":"Scrap1","value":"463"},
+{"source":"Machine002","target":"Scrap2","value":"176"},
+{"source":"Machine004","target":"Scrap3","value":"355"}
+] ,
+"nodes": [
+{"name":"Machine001"},
+{"name":"Machine002"},
+{"name":"Machine003"},
+{"name":"Machine004"},
+{"name":"Machine005"},
+{"name":"Scrap1"},
+{"name":"Scrap2"},
+{"name":"Scrap3"},
+{"name":"Ship"}
+] }
