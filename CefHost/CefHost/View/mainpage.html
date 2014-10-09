@@ -4,10 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script src="../ViewModels/knockout-2.2.1.js" type="text/javascript"></script>
+    <script src="../ViewModels/mainpageVM.js" type="text/javascript" defer="defer"></script>
+
 </head>
 <body>
     <h1>Hello world</h1>
     <br />
     <a href="index.html">View Sankey Diagram</a>
+
+    <br />
+    <button data-bind="click: AlertOsVersionInfoClicked">Click Here to call the App Service</button>
+    <button data-bind="click: DisplayCallStack">Execute a C# method to display the call stack</button>
+    <button data-bind="click: BreakIntoVsDebugger">Break into VS Debugger</button>
+
 </body>
 </html>

@@ -1,4 +1,5 @@
-﻿using CefSharp;
+﻿using CefHost.Models;
+using CefSharp;
 using CefSharp.WinForms;
 using System.IO;
 using System.Reflection;
@@ -23,6 +24,8 @@ namespace CefHost
             {
                 Dock = DockStyle.Fill
             };
+
+            webView.RegisterJsObject("AppServices", new AppModelAndServices());
 
             Controls.Add(webView);
         }
