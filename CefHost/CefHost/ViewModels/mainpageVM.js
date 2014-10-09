@@ -1,16 +1,9 @@
 ﻿function MainPageVM() {
     var self = this;
 
-    self.AlertOsVersionInfoClicked = function () {
-        alert(AppServices.getHostOsVersion());
-    };
-
-    self.DisplayCallStack = function () {
-        AppServices.displayCallStack();
-    };
-
-    self.BreakIntoVsDebugger = function () {
-        AppServices.breakIntoDebugger();
+    self.AlertModelNameClicked = function () {
+        console.log("model.title " + model.title);
+        alert(model.title);
     };
 }
 
